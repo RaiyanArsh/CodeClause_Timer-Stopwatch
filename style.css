@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+    margin: auto;
+}
+nav{
+    background-color: rgb(2, 68, 68);
+    /* width: 100%; */
+    display: flex;
+    border: none;    
+    padding: 0.9rem;
+}
+body{
+    background-color: rgb(1, 1, 30);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h1{ 
+    font-weight: 100;
+    color: whitesmoke;
+    margin-right: 65rem;
+}
+li{
+    margin-left: 3rem;
+}
+.main-img{
+    margin-right: 10px;
+    height: 30px;
+    width: 35px;
+    border-radius: 25px;
+}
+.side-img{
+    display: block;
+    /* max-width: 100%; */
+    /* height: auto; */
+    cursor:pointer;
+    border-radius: 20px;
+    /* height :150px;
+    width:150px; */
+    width: 299px;
+    height: 27vh;
+    align-content: center;
+    margin: auto;
+}
+.main-items{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer {
+        border-radius: 20px;
+    width: 300px;
+    height:260px;
+    background-color: rgb(2, 68, 68);;
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    font-size: 50px;
+}
+.stop {
+    border-radius: 20px;
+    width: 300px;
+    height:260px;
+    background-color: rgb(2, 68, 68);;
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    font-size: 50px;
+}
+.a{
+    margin: auto;
+}
+footer{
+    height: 6vh;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 68, 68) ;
+}
+p{
+    color:white;
+    text-align: center;
+    font-size: large;
+}
+    
+.watch{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.time{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.control button{
+    font-size: 1.025rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    opacity: 0.7;
+}
+input{
+    padding: 0.4rem;
+    width: 70%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: black;
+}
