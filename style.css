@@ -135,3 +135,24 @@ input{
     background-color: white;
     color: black;
 }
+/* Styles for screens up to 750 pixels */
+@media (max-width: 750px) {
+    .resp{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+  }
+  @media (max-height: 650px) {
+    .resp{
+        /* display: flex;
+        flex-direction: column; */
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+  }
